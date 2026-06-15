@@ -2,7 +2,7 @@ using System.Diagnostics;
 using InventoryManagementSystemApp.Models;
 using Microsoft.AspNetCore.Mvc;
 
-namespace InventoryManagementSystemApp.Controllers
+namespace InventoryManagementSystemApp.UI.Controllers
 {
     public class HomeController : Controller
     {
