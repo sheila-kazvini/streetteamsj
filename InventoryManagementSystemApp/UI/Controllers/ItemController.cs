@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace InventoryManagementSystemApp.Controllers
+namespace InventoryManagementSystemApp.UI.Controllers
 {
 	public class ItemController : Controller
 	{
