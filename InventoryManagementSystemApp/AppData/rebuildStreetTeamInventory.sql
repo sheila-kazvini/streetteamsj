@@ -3,6 +3,10 @@ BEGIN TRANSACTION;
 -- Start clean
 DROP TABLE IF EXISTS User;
 DROP TABLE IF EXISTS Item;
+DROP TABLE IF EXISTS Category;
+DROP TABLE IF EXISTS UnitFormat;
+DROP TABLE IF EXISTS UnitType;
+DROP TABLE IF EXISTS Location;
 
 CREATE TABLE User (
     Id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -24,91 +28,151 @@ CREATE TABLE Item (
 	LastAudited TEXT
 );
 
+CREATE TABLE Location (
+    LocationID INTEGER PRIMARY KEY AUTOINCREMENT,
+    LocationName TEXT NOT NULL UNIQUE
+);
+
+CREATE TABLE UnitType (
+    UnitTypeID INTEGER PRIMARY KEY AUTOINCREMENT,
+    UnitTypeName TEXT NOT NULL UNIQUE
+);
+
+CREATE TABLE UnitFormat (
+    UnitFormatID INTEGER PRIMARY KEY AUTOINCREMENT,
+    UnitFormatName TEXT NOT NULL UNIQUE
+);
+
+CREATE TABLE Category (
+    CategoryID INTEGER PRIMARY KEY AUTOINCREMENT,
+    CategoryName TEXT NOT NULL UNIQUE
+);
+
+INSERT INTO Location (LocationName) VALUES 
+('fridge'),
+('shelf'),
+('freezer'),
+('freezer 2'),
+('freezer H');
+
+INSERT INTO UnitType (UnitTypeName) VALUES 
+('egg'),
+('g'),
+('ml'),
+('cup');
+
+INSERT INTO UnitFormat (UnitFormatName) VALUES 
+('portionable'),
+('block'),
+('bag'),
+('can'),
+('package'),
+('slice'),
+('square'),
+('jar'),
+('packet');
+
+INSERT INTO Category (CategoryName) VALUES 
+('baking'),
+('beans'),
+('cheese'),
+('condiment');
+
 INSERT INTO User (Name, Password, Type) VALUES ('admin', '12345', 'admin');
 
+-- Category: Baking (CategoryID = 1)
+INSERT INTO Item (Name, CategoryID, LocationID, UnitSize, UnitTypeID, UnitFormatID, Quantity, LastAudited) VALUES 
+('eggs', 1, 1, 1, 1, 1, 100, NULL),
+('baking powder', 1, 2, 1, 2, 1, 100, NULL),
+('baking soda', 1, 2, 1, 2, 1, 100, NULL),
+('Bisquick', 1, 2, 1, 2, 1, 100, NULL),
+('brown sugar', 1, 2, 1, 2, 1, 100, NULL),
+('corn starch', 1, 2, 1, 2, 1, 100, NULL),
+('cornmeal', 1, 2, 1, 2, 1, 100, NULL),
+('flour', 1, 2, 1, 2, 1, 100, NULL),
+('maple syrup', 1, 2, 1, 3, 1, 100, NULL),
+('molasses', 1, 2, 1, 2, 1, 100, NULL),
+('pancake mix (complete)', 1, 2, 1, 2, 1, 100, NULL),
+('pancake mix (not complete)', 1, 2, 1, 2, 1, 100, NULL),
+('sugar', 1, 2, 1, 2, 1, 100, NULL);
 
-INSERT INTO Item (Name, Category, Location, UnitSize, UnitType, UnitFormat, Quantity, LastAudited) VALUES ('eggs', 'baking', 'fridge', 1, 'egg', 'portionable', 100, NULL);
-INSERT INTO Item (Name, Category, Location, UnitSize, UnitType, UnitFormat, Quantity, LastAudited) VALUES ('baking powder', 'baking', 'shelf', 1, 'g', 'portionable', 100, NULL);
-INSERT INTO Item (Name, Category, Location, UnitSize, UnitType, UnitFormat, Quantity, LastAudited) VALUES ('baking soda', 'baking', 'shelf', 1, 'g', 'portionable', 100, NULL);
-INSERT INTO Item (Name, Category, Location, UnitSize, UnitType, UnitFormat, Quantity, LastAudited) VALUES ('Bisquick', 'baking', 'shelf', 1, 'g', 'portionable', 100, NULL);
-INSERT INTO Item (Name, Category, Location, UnitSize, UnitType, UnitFormat, Quantity, LastAudited) VALUES ('brown sugar', 'baking', 'shelf', 1, 'g', 'portionable', 100, NULL);
-INSERT INTO Item (Name, Category, Location, UnitSize, UnitType, UnitFormat, Quantity, LastAudited) VALUES ('corn starch', 'baking', 'shelf', 1, 'g', 'portionable', 100, NULL);
-INSERT INTO Item (Name, Category, Location, UnitSize, UnitType, UnitFormat, Quantity, LastAudited) VALUES ('cornmeal', 'baking', 'shelf', 1, 'g', 'portionable', 100, NULL);
-INSERT INTO Item (Name, Category, Location, UnitSize, UnitType, UnitFormat, Quantity, LastAudited) VALUES ('flour', 'baking', 'shelf', 1, 'g', 'portionable', 100, NULL);
-INSERT INTO Item (Name, Category, Location, UnitSize, UnitType, UnitFormat, Quantity, LastAudited) VALUES ('maple syrup', 'baking', 'shelf', 1, 'ml', 'portionable', 100, NULL);
-INSERT INTO Item (Name, Category, Location, UnitSize, UnitType, UnitFormat, Quantity, LastAudited) VALUES ('molasses', 'baking', 'shelf', 1, 'g', 'portionable', 100, NULL);
-INSERT INTO Item (Name, Category, Location, UnitSize, UnitType, UnitFormat, Quantity, LastAudited) VALUES ('pancake mix (complete)', 'baking', 'shelf', 1, 'g', 'portionable', 100, NULL);
-INSERT INTO Item (Name, Category, Location, UnitSize, UnitType, UnitFormat, Quantity, LastAudited) VALUES ('pancake mix (not complete)', 'baking', 'shelf', 1, 'g', 'portionable', 100, NULL);
-INSERT INTO Item (Name, Category, Location, UnitSize, UnitType, UnitFormat, Quantity, LastAudited) VALUES ('sugar', 'baking', 'shelf', 1, 'g', 'portionable', 100, NULL);
-INSERT INTO Item (Name, Category, Location, UnitSize, UnitType, UnitFormat, Quantity, LastAudited) VALUES ('chickpeas, cooked', 'beans', 'freezer', 800, 'ml', 'block', 100, NULL);
-INSERT INTO Item (Name, Category, Location, UnitSize, UnitType, UnitFormat, Quantity, LastAudited) VALUES ('kidney beans, red, cooked', 'beans', 'freezer 2', 2, 'cup', 'bag', 100, NULL);
-INSERT INTO Item (Name, Category, Location, UnitSize, UnitType, UnitFormat, Quantity, LastAudited) VALUES ('baked beans, any flavour', 'beans', 'shelf', 398, 'ml', 'can', 100, NULL);
-INSERT INTO Item (Name, Category, Location, UnitSize, UnitType, UnitFormat, Quantity, LastAudited) VALUES ('black beans', 'beans', 'shelf', 398, 'ml', 'can', 100, NULL);
-INSERT INTO Item (Name, Category, Location, UnitSize, UnitType, UnitFormat, Quantity, LastAudited) VALUES ('black beans', 'beans', 'shelf', 540, 'ml', 'can', 100, NULL);
-INSERT INTO Item (Name, Category, Location, UnitSize, UnitType, UnitFormat, Quantity, LastAudited) VALUES ('black turtle beans, dry', 'beans', 'shelf', 1, 'g', 'portionable', 100, NULL);
-INSERT INTO Item (Name, Category, Location, UnitSize, UnitType, UnitFormat, Quantity, LastAudited) VALUES ('chickpeas', 'beans', 'shelf', 540, 'ml', 'can', 100, NULL);
-INSERT INTO Item (Name, Category, Location, UnitSize, UnitType, UnitFormat, Quantity, LastAudited) VALUES ('chickpeas, split, dry', 'beans', 'shelf', 1, 'g', 'portionable', 100, NULL);
-INSERT INTO Item (Name, Category, Location, UnitSize, UnitType, UnitFormat, Quantity, LastAudited) VALUES ('chili beans, red, dry', 'beans', 'shelf', 1, 'g', 'portionable', 100, NULL);
-INSERT INTO Item (Name, Category, Location, UnitSize, UnitType, UnitFormat, Quantity, LastAudited) VALUES ('kidney beans, red', 'beans', 'shelf', 540, 'ml', 'can', 100, NULL);
-INSERT INTO Item (Name, Category, Location, UnitSize, UnitType, UnitFormat, Quantity, LastAudited) VALUES ('kidney beans, red, mini, dry', 'beans', 'shelf', 1, 'g', 'portionable', 100, NULL);
-INSERT INTO Item (Name, Category, Location, UnitSize, UnitType, UnitFormat, Quantity, LastAudited) VALUES ('kidney beans, white', 'beans', 'shelf', 540, 'ml', 'can', 100, NULL);
-INSERT INTO Item (Name, Category, Location, UnitSize, UnitType, UnitFormat, Quantity, LastAudited) VALUES ('lentils, brown, dry', 'beans', 'shelf', 1, 'g', 'portionable', 100, NULL);
-INSERT INTO Item (Name, Category, Location, UnitSize, UnitType, UnitFormat, Quantity, LastAudited) VALUES ('lentils, green, dry', 'beans', 'shelf', 1, 'g', 'portionable', 100, NULL);
-INSERT INTO Item (Name, Category, Location, UnitSize, UnitType, UnitFormat, Quantity, LastAudited) VALUES ('lentils, red, dry', 'beans', 'shelf', 1, 'g', 'portionable', 100, NULL);
-INSERT INTO Item (Name, Category, Location, UnitSize, UnitType, UnitFormat, Quantity, LastAudited) VALUES ('navy beans, dry', 'beans', 'shelf', 1, 'g', 'portionable', 100, NULL);
-INSERT INTO Item (Name, Category, Location, UnitSize, UnitType, UnitFormat, Quantity, LastAudited) VALUES ('yellow eyed beans, dry', 'beans', 'shelf', 1, 'g', 'portionable', 100, NULL);
-INSERT INTO Item (Name, Category, Location, UnitSize, UnitType, UnitFormat, Quantity, LastAudited) VALUES ('boursin creamy cheese - fig & balsamic', 'cheese', 'freezer 2', 150, 'g', 'block', 100, NULL);
-INSERT INTO Item (Name, Category, Location, UnitSize, UnitType, UnitFormat, Quantity, LastAudited) VALUES ('boursin creamy cheese - truffle salt', 'cheese', 'freezer 2', 150, 'g', 'block', 100, NULL);
-INSERT INTO Item (Name, Category, Location, UnitSize, UnitType, UnitFormat, Quantity, LastAudited) VALUES ('camembert cheese, double cream', 'cheese', 'freezer 2', 125, 'g', 'block', 100, NULL);
-INSERT INTO Item (Name, Category, Location, UnitSize, UnitType, UnitFormat, Quantity, LastAudited) VALUES ('cheddar, block', 'cheese', 'freezer 2', 150, 'g', 'block', 100, NULL);
-INSERT INTO Item (Name, Category, Location, UnitSize, UnitType, UnitFormat, Quantity, LastAudited) VALUES ('cheddar, block', 'cheese', 'freezer 2', 151, 'g', 'block', 100, NULL);
-INSERT INTO Item (Name, Category, Location, UnitSize, UnitType, UnitFormat, Quantity, LastAudited) VALUES ('cheddar, block', 'cheese', 'freezer 2', 152, 'g', 'block', 100, NULL);
-INSERT INTO Item (Name, Category, Location, UnitSize, UnitType, UnitFormat, Quantity, LastAudited) VALUES ('cheddar, block', 'cheese', 'freezer 2', 154, 'g', 'block', 100, NULL);
-INSERT INTO Item (Name, Category, Location, UnitSize, UnitType, UnitFormat, Quantity, LastAudited) VALUES ('cheddar, block', 'cheese', 'freezer 2', 155, 'g', 'block', 100, NULL);
-INSERT INTO Item (Name, Category, Location, UnitSize, UnitType, UnitFormat, Quantity, LastAudited) VALUES ('cheddar, sliced', 'cheese', 'freezer 2', 500, 'g', 'package', 100, NULL);
-INSERT INTO Item (Name, Category, Location, UnitSize, UnitType, UnitFormat, Quantity, LastAudited) VALUES ('cheese and assorted cheese cubes', 'cheese', 'freezer 2', 1, 'g', 'portionable', 100, NULL);
-INSERT INTO Item (Name, Category, Location, UnitSize, UnitType, UnitFormat, Quantity, LastAudited) VALUES ('goat''s milk, crumbles', 'cheese', 'freezer 2', 185, 'g', 'package', 100, NULL);
-INSERT INTO Item (Name, Category, Location, UnitSize, UnitType, UnitFormat, Quantity, LastAudited) VALUES ('marble, cubes', 'cheese', 'freezer 2', 172, 'g', 'block', 100, NULL);
-INSERT INTO Item (Name, Category, Location, UnitSize, UnitType, UnitFormat, Quantity, LastAudited) VALUES ('monterey jack, sliced', 'cheese', 'freezer 2', 170, 'g', 'package', 100, NULL);
-INSERT INTO Item (Name, Category, Location, UnitSize, UnitType, UnitFormat, Quantity, LastAudited) VALUES ('mozzarella + cheddar, shredded', 'cheese', 'freezer 2', 320, 'g', 'bag', 100, NULL);
-INSERT INTO Item (Name, Category, Location, UnitSize, UnitType, UnitFormat, Quantity, LastAudited) VALUES ('mozzarella, block', 'cheese', 'freezer 2', 200, 'g', 'block', 100, NULL);
-INSERT INTO Item (Name, Category, Location, UnitSize, UnitType, UnitFormat, Quantity, LastAudited) VALUES ('mozzarella, cubes', 'cheese', 'freezer 2', 240, 'g', 'block', 100, NULL);
-INSERT INTO Item (Name, Category, Location, UnitSize, UnitType, UnitFormat, Quantity, LastAudited) VALUES ('mozzarella, shredded', 'cheese', 'freezer 2', 130, 'g', 'bag', 100, NULL);
-INSERT INTO Item (Name, Category, Location, UnitSize, UnitType, UnitFormat, Quantity, LastAudited) VALUES ('mozzarella, shredded', 'cheese', 'freezer 2', 250, 'g', 'bag', 100, NULL);
-INSERT INTO Item (Name, Category, Location, UnitSize, UnitType, UnitFormat, Quantity, LastAudited) VALUES ('mozzarella, shredded', 'cheese', 'freezer 2', 320, 'g', 'bag', 100, NULL);
-INSERT INTO Item (Name, Category, Location, UnitSize, UnitType, UnitFormat, Quantity, LastAudited) VALUES ('oka artisan cheese, block', 'cheese', 'freezer 2', 170, 'g', 'block', 100, NULL);
-INSERT INTO Item (Name, Category, Location, UnitSize, UnitType, UnitFormat, Quantity, LastAudited) VALUES ('oka artisan cheese, block', 'cheese', 'freezer 2', 190, 'g', 'block', 100, NULL);
-INSERT INTO Item (Name, Category, Location, UnitSize, UnitType, UnitFormat, Quantity, LastAudited) VALUES ('oka artisan cheese, block', 'cheese', 'freezer 2', 208, 'g', 'block', 100, NULL);
-INSERT INTO Item (Name, Category, Location, UnitSize, UnitType, UnitFormat, Quantity, LastAudited) VALUES ('oka artisan cheese, block', 'cheese', 'freezer 2', 228, 'g', 'block', 100, NULL);
-INSERT INTO Item (Name, Category, Location, UnitSize, UnitType, UnitFormat, Quantity, LastAudited) VALUES ('parmesan, shredded', 'cheese', 'freezer 2', 250, 'g', 'bag', 100, NULL);
-INSERT INTO Item (Name, Category, Location, UnitSize, UnitType, UnitFormat, Quantity, LastAudited) VALUES ('rondelé creamy cheese spread, garlic & herb', 'cheese', 'freezer 2', 125, 'g', 'block', 100, NULL);
-INSERT INTO Item (Name, Category, Location, UnitSize, UnitType, UnitFormat, Quantity, LastAudited) VALUES ('swiss, block', 'cheese', 'freezer H', 85, 'g', 'block', 100, NULL);
-INSERT INTO Item (Name, Category, Location, UnitSize, UnitType, UnitFormat, Quantity, LastAudited) VALUES ('swiss, block', 'cheese', 'freezer H', 152, 'g', 'block', 100, NULL);
-INSERT INTO Item (Name, Category, Location, UnitSize, UnitType, UnitFormat, Quantity, LastAudited) VALUES ('swiss, block', 'cheese', 'freezer H', 153, 'g', 'block', 100, NULL);
-INSERT INTO Item (Name, Category, Location, UnitSize, UnitType, UnitFormat, Quantity, LastAudited) VALUES ('swiss, block', 'cheese', 'freezer H', 154, 'g', 'block', 100, NULL);
-INSERT INTO Item (Name, Category, Location, UnitSize, UnitType, UnitFormat, Quantity, LastAudited) VALUES ('swiss, block', 'cheese', 'freezer H', 155, 'g', 'block', 100, NULL);
-INSERT INTO Item (Name, Category, Location, UnitSize, UnitType, UnitFormat, Quantity, LastAudited) VALUES ('swiss, cubes', 'cheese', 'freezer 2', 240, 'g', 'block', 100, NULL);
-INSERT INTO Item (Name, Category, Location, UnitSize, UnitType, UnitFormat, Quantity, LastAudited) VALUES ('feta, crumbles', 'cheese', 'fridge', 1, 'g', 'portionable', 100, NULL);
-INSERT INTO Item (Name, Category, Location, UnitSize, UnitType, UnitFormat, Quantity, LastAudited) VALUES ('parmesan, grated', 'cheese', 'fridge', 1, 'g', 'portionable', 100, NULL);
-INSERT INTO Item (Name, Category, Location, UnitSize, UnitType, UnitFormat, Quantity, LastAudited) VALUES ('parmesan, shredded', 'cheese', 'fridge', 1000, 'g', 'portionable', 100, NULL);
-INSERT INTO Item (Name, Category, Location, UnitSize, UnitType, UnitFormat, Quantity, LastAudited) VALUES ('processed cheese slice', 'cheese', 'fridge', 1, NULL, 'slice', 100, NULL);
-INSERT INTO Item (Name, Category, Location, UnitSize, UnitType, UnitFormat, Quantity, LastAudited) VALUES ('dijon mustard, bold & spicy', 'condiment', 'fridge', 1, 'ml', 'portionable', 100, NULL);
-INSERT INTO Item (Name, Category, Location, UnitSize, UnitType, UnitFormat, Quantity, LastAudited) VALUES ('dijon mustard, regular', 'condiment', 'fridge', 1, 'ml', 'portionable', 100, NULL);
-INSERT INTO Item (Name, Category, Location, UnitSize, UnitType, UnitFormat, Quantity, LastAudited) VALUES ('ketchup', 'condiment', 'fridge', 1, 'ml', 'portionable', 100, NULL);
-INSERT INTO Item (Name, Category, Location, UnitSize, UnitType, UnitFormat, Quantity, LastAudited) VALUES ('margarine (can be portioned smaller)', 'condiment', 'fridge', 0.5, 'cup', 'square', 100, NULL);
-INSERT INTO Item (Name, Category, Location, UnitSize, UnitType, UnitFormat, Quantity, LastAudited) VALUES ('mayonnaise', 'condiment', 'fridge', 1, 'ml', 'portionable', 100, NULL);
-INSERT INTO Item (Name, Category, Location, UnitSize, UnitType, UnitFormat, Quantity, LastAudited) VALUES ('mustard, yellow prepared', 'condiment', 'fridge', 1, 'ml', 'portionable', 100, NULL);
-INSERT INTO Item (Name, Category, Location, UnitSize, UnitType, UnitFormat, Quantity, LastAudited) VALUES ('relish, sweet pickle', 'condiment', 'fridge', 1, 'ml', 'portionable', 100, NULL);
-INSERT INTO Item (Name, Category, Location, UnitSize, UnitType, UnitFormat, Quantity, LastAudited) VALUES ('almond butter', 'condiment', 'shelf', 1, 'g', 'portionable', 100, NULL);
-INSERT INTO Item (Name, Category, Location, UnitSize, UnitType, UnitFormat, Quantity, LastAudited) VALUES ('barbecue sauce', 'condiment', 'shelf', 1, 'ml', 'portionable', 100, NULL);
-INSERT INTO Item (Name, Category, Location, UnitSize, UnitType, UnitFormat, Quantity, LastAudited) VALUES ('cheez whiz processed cheese spread', 'condiment', 'shelf', 450, 'g', 'jar', 100, NULL);
-INSERT INTO Item (Name, Category, Location, UnitSize, UnitType, UnitFormat, Quantity, LastAudited) VALUES ('cranberry sauce', 'condiment', 'shelf', 348, 'ml', 'can', 100, NULL);
-INSERT INTO Item (Name, Category, Location, UnitSize, UnitType, UnitFormat, Quantity, LastAudited) VALUES ('dill pickles, baby', 'condiment', 'shelf', 1000, 'ml', 'portionable', 100, NULL);
-INSERT INTO Item (Name, Category, Location, UnitSize, UnitType, UnitFormat, Quantity, LastAudited) VALUES ('Miracle Whip/whipped dressing', 'condiment', 'shelf', 1, 'ml', 'portionable', 100, NULL);
-INSERT INTO Item (Name, Category, Location, UnitSize, UnitType, UnitFormat, Quantity, LastAudited) VALUES ('peanut butter', 'condiment', 'shelf', 1, 'g', 'portionable', 100, NULL);
-INSERT INTO Item (Name, Category, Location, UnitSize, UnitType, UnitFormat, Quantity, LastAudited) VALUES ('plum sauce', 'condiment', 'shelf', 15, 'ml', 'packet', 100, NULL);
-INSERT INTO Item (Name, Category, Location, UnitSize, UnitType, UnitFormat, Quantity, LastAudited) VALUES ('salad dressing, ranch', 'condiment', 'shelf', 1, 'ml', 'portionable', 100, NULL);
-INSERT INTO Item (Name, Category, Location, UnitSize, UnitType, UnitFormat, Quantity, LastAudited) VALUES ('strawberry jam', 'condiment', 'shelf', 1, 'g', 'portionable', 100, NULL);
+-- Category: Beans (CategoryID = 2)
+INSERT INTO Item (Name, CategoryID, LocationID, UnitSize, UnitTypeID, UnitFormatID, Quantity, LastAudited) VALUES 
+('chickpeas, cooked', 2, 3, 800, 3, 2, 100, NULL),
+('kidney beans, red, cooked', 2, 4, 2, 4, 3, 100, NULL),
+('baked beans, any flavour', 2, 2, 398, 3, 4, 100, NULL),
+('black beans', 2, 2, 398, 3, 4, 100, NULL),
+('black beans', 2, 2, 540, 3, 4, 100, NULL),
+('black turtle beans, dry', 2, 2, 1, 2, 1, 100, NULL),
+('chickpeas', 2, 2, 540, 3, 4, 100, NULL),
+('chickpeas, split, dry', 2, 2, 1, 2, 1, 100, NULL),
+('chili beans, red, dry', 2, 2, 1, 2, 1, 100, NULL),
+('kidney beans, red', 2, 2, 540, 3, 4, 100, NULL),
+('kidney beans, red, mini, dry', 2, 2, 1, 2, 1, 100, NULL),
+('kidney beans, white', 2, 2, 540, 3, 4, 100, NULL),
+('lentils, brown, dry', 2, 2, 1, 2, 1, 100, NULL),
+('lentils, green, dry', 2, 2, 1, 2, 1, 100, NULL),
+('lentils, red, dry', 2, 2, 1, 2, 1, 100, NULL),
+('navy beans, dry', 2, 2, 1, 2, 1, 100, NULL),
+('yellow eyed beans, dry', 2, 2, 1, 2, 1, 100, NULL);
+
+-- Category: Cheese (CategoryID = 3)
+INSERT INTO Item (Name, CategoryID, LocationID, UnitSize, UnitTypeID, UnitFormatID, Quantity, LastAudited) VALUES 
+('boursin creamy cheese - fig & balsamic', 3, 4, 150, 2, 2, 100, NULL),
+('boursin creamy cheese - truffle salt', 3, 4, 150, 2, 2, 100, NULL),
+('camembert cheese, double cream', 3, 4, 125, 2, 2, 100, NULL),
+('cheddar, block', 3, 4, 150, 2, 2, 100, NULL),
+('cheddar, block', 3, 4, 151, 2, 2, 100, NULL),
+('cheddar, block', 3, 4, 152, 2, 2, 100, NULL),
+('cheddar, block', 3, 4, 154, 2, 2, 100, NULL),
+('cheddar, block', 3, 4, 155, 2, 2, 100, NULL),
+('cheddar, sliced', 3, 4, 500, 2, 5, 100, NULL),
+('cheese and assorted cheese cubes', 3, 4, 1, 2, 1, 100, NULL),
+('goat''s milk, crumbles', 3, 4, 185, 2, 5, 100, NULL),
+('marble, cubes', 3, 4, 172, 2, 2, 100, NULL),
+('monterey jack, sliced', 3, 4, 170, 2, 5, 100, NULL),
+('mozzarella + cheddar, shredded', 3, 4, 320, 2, 3, 100, NULL),
+('mozzarella, block', 3, 4, 200, 2, 2, 100, NULL),
+('mozzarella, cubes', 3, 4, 240, 2, 2, 100, NULL),
+('mozzarella, shredded', 3, 4, 130, 2, 3, 100, NULL),
+('mozzarella, shredded', 3, 4, 250, 2, 3, 100, NULL),
+('mozzarella, shredded', 3, 4, 320, 2, 3, 100, NULL),
+('oka artisan cheese, block', 3, 4, 170, 2, 2, 100, NULL),
+('oka artisan cheese, block', 3, 4, 190, 2, 2, 100, NULL),
+('oka artisan cheese, block', 3, 4, 208, 2, 2, 100, NULL),
+('oka artisan cheese, block', 3, 4, 228, 2, 2, 100, NULL),
+('parmesan, shredded', 3, 4, 250, 2, 3, 100, NULL),
+('rondelé creamy cheese spread, garlic & herb', 3, 4, 125, 2, 2, 100, NULL),
+('swiss, block', 3, 5, 85, 2, 2, 100, NULL),
+('swiss, block', 3, 5, 152, 2, 2, 100, NULL),
+('swiss, block', 3, 5, 153, 2, 2, 100, NULL),
+('swiss, block', 3, 5, 154, 2, 2, 100, NULL),
+('swiss, block', 3, 5, 155, 2, 2, 100, NULL),
+('swiss, cubes', 3, 4, 240, 2, 2, 100, NULL),
+('feta, crumbles', 3, 1, 1, 2, 1, 100, NULL),
+('parmesan, grated', 3, 1, 1, 2, 1, 100, NULL),
+('parmesan, shredded', 3, 1, 1000, 2, 1, 100, NULL),
+('processed cheese slice', 3, 1, 1, NULL, 6, 100, NULL);
+
+-- Category: Condiments (CategoryID = 4)
+INSERT INTO Item (Name, CategoryID, LocationID, UnitSize, UnitTypeID, UnitFormatID, Quantity, LastAudited) VALUES 
+('dijon mustard, bold & spicy', 4, 1, 1, 3, 1, 100, NULL),
+('dijon mustard, regular', 4, 1, 1, 3, 1, 100, NULL),
+('ketchup', 4, 1, 1, 3, 1, 100, NULL),
+('margarine (can be portioned smaller)', 4, 1, 0.5, 4, 7, 100, NULL),
+('mayonnaise', 4, 1, 1, 3, 1, 100, NULL),
+('mustard, yellow prepared', 4, 1, 1, 3, 1, 100, NULL),
+('relish, sweet pickle', 4, 1, 1, 3, 1, 100, NULL),
+('almond butter', 4, 2, 1, 2, 1, 100, NULL),
+('barbecue sauce', 4, 2, 1, 3, 1, 100, NULL),
+('cheez whiz processed cheese spread', 4, 2, 450, 2, 8, 100, NULL),
+('cranberry sauce', 4, 2, 348, 3, 4, 100, NULL),
+('dill pickles, baby', 4, 2, 1000, 3, 1, 100, NULL),
+('Miracle Whip/whipped dressing', 4, 2, 1, 3, 1, 100, NULL),
+('peanut butter', 4, 2, 1, 2, 1, 100, NULL),
+('plum sauce', 4, 2, 15, 3, 9, 100, NULL),
+('salad dressing, ranch', 4, 2, 1, 3, 1, 100, NULL),
+('strawberry jam', 4, 2, 1, 2, 1, 100, NULL);
 
 COMMIT;
 

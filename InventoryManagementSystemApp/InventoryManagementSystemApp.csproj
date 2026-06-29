@@ -7,17 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Domain\DAOs\" />
-    <Folder Include="Domain\DTOs\" />
-    <Folder Include="Domain\Entities\" />
     <Folder Include="Domain\HelperClasses\" />
-    <Folder Include="Domain\Services\" />
-    <Folder Include="Persistence\DAOs\" />
-    <Folder Include="Persistence\EF\" />
-    <Folder Include="Persistence\Queries\" />
-    <Folder Include="UI\Queries\" />
-    <Folder Include="UI\ViewModels\" />
-    <Folder Include="UI\ReadModels\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="8.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite.Core" Version="8.0.0" />
   </ItemGroup>
 
 </Project>

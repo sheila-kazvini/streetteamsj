@@ -1,4 +1,4 @@
-﻿namespace InventoryManagementSystemApp.UI.ReadModels
+﻿namespace InventoryManagementSystemApp.UI.ReadModels.Rows
 {
 	public class ItemRow
 	{

@@ -3,28 +3,92 @@
   "WorkspaceRootPath": "C:\\Users\\sheil\\Desktop\\streetteamsj\\InventoryManagementSystemApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C125123B-9484-49B9-BDD9-EF11B5C9A602}|InventoryManagementSystemApp.csproj|c:\\users\\sheil\\desktop\\streetteamsj\\inventorymanagementsystemapp\\ui\\views\\item\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C125123B-9484-49B9-BDD9-EF11B5C9A602}|InventoryManagementSystemApp.csproj|solutionrelative:ui\\views\\item\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{C125123B-9484-49B9-BDD9-EF11B5C9A602}|InventoryManagementSystemApp.csproj|c:\\users\\sheil\\desktop\\streetteamsj\\inventorymanagementsystemapp\\persistence\\daos\\itemdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C125123B-9484-49B9-BDD9-EF11B5C9A602}|InventoryManagementSystemApp.csproj|solutionrelative:persistence\\daos\\itemdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C125123B-9484-49B9-BDD9-EF11B5C9A602}|InventoryManagementSystemApp.csproj|c:\\users\\sheil\\desktop\\streetteamsj\\inventorymanagementsystemapp\\ui\\views\\item\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C125123B-9484-49B9-BDD9-EF11B5C9A602}|InventoryManagementSystemApp.csproj|solutionrelative:ui\\views\\item\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{C125123B-9484-49B9-BDD9-EF11B5C9A602}|InventoryManagementSystemApp.csproj|c:\\users\\sheil\\desktop\\streetteamsj\\inventorymanagementsystemapp\\persistence\\ef\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C125123B-9484-49B9-BDD9-EF11B5C9A602}|InventoryManagementSystemApp.csproj|solutionrelative:persistence\\ef\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C125123B-9484-49B9-BDD9-EF11B5C9A602}|InventoryManagementSystemApp.csproj|c:\\users\\sheil\\desktop\\streetteamsj\\inventorymanagementsystemapp\\ui\\views\\item\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C125123B-9484-49B9-BDD9-EF11B5C9A602}|InventoryManagementSystemApp.csproj|solutionrelative:ui\\views\\item\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{C125123B-9484-49B9-BDD9-EF11B5C9A602}|InventoryManagementSystemApp.csproj|c:\\users\\sheil\\desktop\\streetteamsj\\inventorymanagementsystemapp\\domain\\entities\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C125123B-9484-49B9-BDD9-EF11B5C9A602}|InventoryManagementSystemApp.csproj|solutionrelative:domain\\entities\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C125123B-9484-49B9-BDD9-EF11B5C9A602}|InventoryManagementSystemApp.csproj|c:\\users\\sheil\\desktop\\streetteamsj\\inventorymanagementsystemapp\\ui\\views\\item\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C125123B-9484-49B9-BDD9-EF11B5C9A602}|InventoryManagementSystemApp.csproj|solutionrelative:ui\\views\\item\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C125123B-9484-49B9-BDD9-EF11B5C9A602}|InventoryManagementSystemApp.csproj|c:\\users\\sheil\\desktop\\streetteamsj\\inventorymanagementsystemapp\\ui\\controllers\\itemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C125123B-9484-49B9-BDD9-EF11B5C9A602}|InventoryManagementSystemApp.csproj|solutionrelative:ui\\controllers\\itemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C125123B-9484-49B9-BDD9-EF11B5C9A602}|InventoryManagementSystemApp.csproj|c:\\users\\sheil\\desktop\\streetteamsj\\inventorymanagementsystemapp\\domain\\daos\\iitemdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C125123B-9484-49B9-BDD9-EF11B5C9A602}|InventoryManagementSystemApp.csproj|solutionrelative:domain\\daos\\iitemdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C125123B-9484-49B9-BDD9-EF11B5C9A602}|InventoryManagementSystemApp.csproj|c:\\users\\sheil\\desktop\\streetteamsj\\inventorymanagementsystemapp\\ui\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C125123B-9484-49B9-BDD9-EF11B5C9A602}|InventoryManagementSystemApp.csproj|solutionrelative:ui\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C125123B-9484-49B9-BDD9-EF11B5C9A602}|InventoryManagementSystemApp.csproj|c:\\users\\sheil\\desktop\\streetteamsj\\inventorymanagementsystemapp\\domain\\dtos\\requests\\deleteitemrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C125123B-9484-49B9-BDD9-EF11B5C9A602}|InventoryManagementSystemApp.csproj|solutionrelative:domain\\dtos\\requests\\deleteitemrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C125123B-9484-49B9-BDD9-EF11B5C9A602}|InventoryManagementSystemApp.csproj|c:\\users\\sheil\\desktop\\streetteamsj\\inventorymanagementsystemapp\\domain\\dtos\\requests\\edititemrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C125123B-9484-49B9-BDD9-EF11B5C9A602}|InventoryManagementSystemApp.csproj|solutionrelative:domain\\dtos\\requests\\edititemrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C125123B-9484-49B9-BDD9-EF11B5C9A602}|InventoryManagementSystemApp.csproj|c:\\users\\sheil\\desktop\\streetteamsj\\inventorymanagementsystemapp\\domain\\dtos\\requests\\createitemrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C125123B-9484-49B9-BDD9-EF11B5C9A602}|InventoryManagementSystemApp.csproj|solutionrelative:domain\\dtos\\requests\\createitemrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C125123B-9484-49B9-BDD9-EF11B5C9A602}|InventoryManagementSystemApp.csproj|c:\\users\\sheil\\desktop\\streetteamsj\\inventorymanagementsystemapp\\domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C125123B-9484-49B9-BDD9-EF11B5C9A602}|InventoryManagementSystemApp.csproj|solutionrelative:domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C125123B-9484-49B9-BDD9-EF11B5C9A602}|InventoryManagementSystemApp.csproj|c:\\users\\sheil\\desktop\\streetteamsj\\inventorymanagementsystemapp\\domain\\services\\iitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C125123B-9484-49B9-BDD9-EF11B5C9A602}|InventoryManagementSystemApp.csproj|solutionrelative:domain\\services\\iitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C125123B-9484-49B9-BDD9-EF11B5C9A602}|InventoryManagementSystemApp.csproj|c:\\users\\sheil\\desktop\\streetteamsj\\inventorymanagementsystemapp\\domain\\services\\itemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C125123B-9484-49B9-BDD9-EF11B5C9A602}|InventoryManagementSystemApp.csproj|solutionrelative:domain\\services\\itemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C125123B-9484-49B9-BDD9-EF11B5C9A602}|InventoryManagementSystemApp.csproj|c:\\users\\sheil\\desktop\\streetteamsj\\inventorymanagementsystemapp\\domain\\dtos\\results\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C125123B-9484-49B9-BDD9-EF11B5C9A602}|InventoryManagementSystemApp.csproj|solutionrelative:domain\\dtos\\results\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C125123B-9484-49B9-BDD9-EF11B5C9A602}|InventoryManagementSystemApp.csproj|c:\\users\\sheil\\desktop\\streetteamsj\\inventorymanagementsystemapp\\persistence\\queries\\itemreadmodelgateway.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C125123B-9484-49B9-BDD9-EF11B5C9A602}|InventoryManagementSystemApp.csproj|solutionrelative:persistence\\queries\\itemreadmodelgateway.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C125123B-9484-49B9-BDD9-EF11B5C9A602}|InventoryManagementSystemApp.csproj|c:\\users\\sheil\\desktop\\streetteamsj\\inventorymanagementsystemapp\\ui\\viewmodels\\itemvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C125123B-9484-49B9-BDD9-EF11B5C9A602}|InventoryManagementSystemApp.csproj|solutionrelative:ui\\viewmodels\\itemvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C125123B-9484-49B9-BDD9-EF11B5C9A602}|InventoryManagementSystemApp.csproj|c:\\users\\sheil\\desktop\\streetteamsj\\inventorymanagementsystemapp\\ui\\readmodels\\rows\\itemrow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C125123B-9484-49B9-BDD9-EF11B5C9A602}|InventoryManagementSystemApp.csproj|solutionrelative:ui\\readmodels\\rows\\itemrow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C125123B-9484-49B9-BDD9-EF11B5C9A602}|InventoryManagementSystemApp.csproj|c:\\users\\sheil\\desktop\\streetteamsj\\inventorymanagementsystemapp\\ui\\queries\\iitemreadmodelgateway.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C125123B-9484-49B9-BDD9-EF11B5C9A602}|InventoryManagementSystemApp.csproj|solutionrelative:ui\\queries\\iitemreadmodelgateway.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C125123B-9484-49B9-BDD9-EF11B5C9A602}|InventoryManagementSystemApp.csproj|c:\\users\\sheil\\desktop\\streetteamsj\\inventorymanagementsystemapp\\ui\\views\\item\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C125123B-9484-49B9-BDD9-EF11B5C9A602}|InventoryManagementSystemApp.csproj|solutionrelative:ui\\views\\item\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C125123B-9484-49B9-BDD9-EF11B5C9A602}|InventoryManagementSystemApp.csproj|c:\\users\\sheil\\desktop\\streetteamsj\\inventorymanagementsystemapp\\inventorymanagementsystemapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{C125123B-9484-49B9-BDD9-EF11B5C9A602}|InventoryManagementSystemApp.csproj|solutionrelative:inventorymanagementsystemapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C125123B-9484-49B9-BDD9-EF11B5C9A602}|InventoryManagementSystemApp.csproj|c:\\users\\sheil\\desktop\\streetteamsj\\inventorymanagementsystemapp\\ui\\controllers\\itemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C125123B-9484-49B9-BDD9-EF11B5C9A602}|InventoryManagementSystemApp.csproj|solutionrelative:ui\\controllers\\itemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C125123B-9484-49B9-BDD9-EF11B5C9A602}|InventoryManagementSystemApp.csproj|c:\\users\\sheil\\desktop\\streetteamsj\\inventorymanagementsystemapp\\ui\\views\\item\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C125123B-9484-49B9-BDD9-EF11B5C9A602}|InventoryManagementSystemApp.csproj|solutionrelative:ui\\views\\item\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C125123B-9484-49B9-BDD9-EF11B5C9A602}|InventoryManagementSystemApp.csproj|c:\\users\\sheil\\desktop\\streetteamsj\\inventorymanagementsystemapp\\ui\\views\\item\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C125123B-9484-49B9-BDD9-EF11B5C9A602}|InventoryManagementSystemApp.csproj|solutionrelative:ui\\views\\item\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +98,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,41 +110,106 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\sheil\\Desktop\\streetteamsj\\InventoryManagementSystemApp\\UI\\Views\\Item\\Delete.cshtml",
-              "RelativeDocumentMoniker": "UI\\Views\\Item\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\sheil\\Desktop\\streetteamsj\\InventoryManagementSystemApp\\UI\\Views\\Item\\Delete.cshtml",
-              "RelativeToolTip": "UI\\Views\\Item\\Delete.cshtml",
+              "DocumentIndex": 6,
+              "Title": "DeleteItemRequest.cs",
+              "DocumentMoniker": "C:\\Users\\sheil\\Desktop\\streetteamsj\\InventoryManagementSystemApp\\Domain\\DTOs\\Requests\\DeleteItemRequest.cs",
+              "RelativeDocumentMoniker": "Domain\\DTOs\\Requests\\DeleteItemRequest.cs",
+              "ToolTip": "C:\\Users\\sheil\\Desktop\\streetteamsj\\InventoryManagementSystemApp\\Domain\\DTOs\\Requests\\DeleteItemRequest.cs",
+              "RelativeToolTip": "Domain\\DTOs\\Requests\\DeleteItemRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-17T18:43:27.73Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IItemDao.cs",
+              "DocumentMoniker": "C:\\Users\\sheil\\Desktop\\streetteamsj\\InventoryManagementSystemApp\\Domain\\DAOs\\IItemDao.cs",
+              "RelativeDocumentMoniker": "Domain\\DAOs\\IItemDao.cs",
+              "ToolTip": "C:\\Users\\sheil\\Desktop\\streetteamsj\\InventoryManagementSystemApp\\Domain\\DAOs\\IItemDao.cs",
+              "RelativeToolTip": "Domain\\DAOs\\IItemDao.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-17T18:38:51.808Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\sheil\\Desktop\\streetteamsj\\InventoryManagementSystemApp\\UI\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "UI\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\sheil\\Desktop\\streetteamsj\\InventoryManagementSystemApp\\UI\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "UI\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-15T14:53:39.944Z",
+              "WhenOpened": "2026-06-15T13:09:56.425Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ItemDao.cs",
+              "DocumentMoniker": "C:\\Users\\sheil\\Desktop\\streetteamsj\\InventoryManagementSystemApp\\Persistence\\DAOs\\ItemDao.cs",
+              "RelativeDocumentMoniker": "Persistence\\DAOs\\ItemDao.cs",
+              "ToolTip": "C:\\Users\\sheil\\Desktop\\streetteamsj\\InventoryManagementSystemApp\\Persistence\\DAOs\\ItemDao.cs",
+              "RelativeToolTip": "Persistence\\DAOs\\ItemDao.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAIBAwCMAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-17T18:38:33.848Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\sheil\\Desktop\\streetteamsj\\InventoryManagementSystemApp\\UI\\Views\\Item\\Edit.cshtml",
-              "RelativeDocumentMoniker": "UI\\Views\\Item\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\sheil\\Desktop\\streetteamsj\\InventoryManagementSystemApp\\UI\\Views\\Item\\Edit.cshtml",
-              "RelativeToolTip": "UI\\Views\\Item\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-15T14:53:29.676Z",
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\sheil\\Desktop\\streetteamsj\\InventoryManagementSystemApp\\Persistence\\EF\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Persistence\\EF\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\sheil\\Desktop\\streetteamsj\\InventoryManagementSystemApp\\Persistence\\EF\\AppDbContext.cs",
+              "RelativeToolTip": "Persistence\\EF\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-17T18:38:08.929Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\sheil\\Desktop\\streetteamsj\\InventoryManagementSystemApp\\UI\\Views\\Item\\Create.cshtml",
-              "RelativeDocumentMoniker": "UI\\Views\\Item\\Create.cshtml",
-              "ToolTip": "C:\\Users\\sheil\\Desktop\\streetteamsj\\InventoryManagementSystemApp\\UI\\Views\\Item\\Create.cshtml",
-              "RelativeToolTip": "UI\\Views\\Item\\Create.cshtml",
+              "Title": "Item.cs",
+              "DocumentMoniker": "C:\\Users\\sheil\\Desktop\\streetteamsj\\InventoryManagementSystemApp\\Domain\\Entities\\Item.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Item.cs",
+              "ToolTip": "C:\\Users\\sheil\\Desktop\\streetteamsj\\InventoryManagementSystemApp\\Domain\\Entities\\Item.cs",
+              "RelativeToolTip": "Domain\\Entities\\Item.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-17T18:42:03.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EditItemRequest.cs",
+              "DocumentMoniker": "C:\\Users\\sheil\\Desktop\\streetteamsj\\InventoryManagementSystemApp\\Domain\\DTOs\\Requests\\EditItemRequest.cs",
+              "RelativeDocumentMoniker": "Domain\\DTOs\\Requests\\EditItemRequest.cs",
+              "ToolTip": "C:\\Users\\sheil\\Desktop\\streetteamsj\\InventoryManagementSystemApp\\Domain\\DTOs\\Requests\\EditItemRequest.cs",
+              "RelativeToolTip": "Domain\\DTOs\\Requests\\EditItemRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-15T14:53:15.211Z",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-17T18:43:13.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CreateItemRequest.cs",
+              "DocumentMoniker": "C:\\Users\\sheil\\Desktop\\streetteamsj\\InventoryManagementSystemApp\\Domain\\DTOs\\Requests\\CreateItemRequest.cs",
+              "RelativeDocumentMoniker": "Domain\\DTOs\\Requests\\CreateItemRequest.cs",
+              "ToolTip": "C:\\Users\\sheil\\Desktop\\streetteamsj\\InventoryManagementSystemApp\\Domain\\DTOs\\Requests\\CreateItemRequest.cs",
+              "RelativeToolTip": "Domain\\DTOs\\Requests\\CreateItemRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-17T18:43:00.462Z",
               "EditorCaption": ""
             },
             {
@@ -98,28 +227,171 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ItemController.cs",
-              "DocumentMoniker": "C:\\Users\\sheil\\Desktop\\streetteamsj\\InventoryManagementSystemApp\\UI\\Controllers\\ItemController.cs",
-              "RelativeDocumentMoniker": "UI\\Controllers\\ItemController.cs",
-              "ToolTip": "C:\\Users\\sheil\\Desktop\\streetteamsj\\InventoryManagementSystemApp\\UI\\Controllers\\ItemController.cs*",
-              "RelativeToolTip": "UI\\Controllers\\ItemController.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\sheil\\Desktop\\streetteamsj\\InventoryManagementSystemApp\\Domain\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\sheil\\Desktop\\streetteamsj\\InventoryManagementSystemApp\\Domain\\Entities\\User.cs",
+              "RelativeToolTip": "Domain\\Entities\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-15T14:24:40.721Z",
+              "WhenOpened": "2026-06-17T18:42:15.074Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\sheil\\Desktop\\streetteamsj\\InventoryManagementSystemApp\\UI\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "UI\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\sheil\\Desktop\\streetteamsj\\InventoryManagementSystemApp\\UI\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "UI\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 10,
+              "Title": "IItemService.cs",
+              "DocumentMoniker": "C:\\Users\\sheil\\Desktop\\streetteamsj\\InventoryManagementSystemApp\\Domain\\Services\\IItemService.cs",
+              "RelativeDocumentMoniker": "Domain\\Services\\IItemService.cs",
+              "ToolTip": "C:\\Users\\sheil\\Desktop\\streetteamsj\\InventoryManagementSystemApp\\Domain\\Services\\IItemService.cs",
+              "RelativeToolTip": "Domain\\Services\\IItemService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-17T18:41:16.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ItemService.cs",
+              "DocumentMoniker": "C:\\Users\\sheil\\Desktop\\streetteamsj\\InventoryManagementSystemApp\\Domain\\Services\\ItemService.cs",
+              "RelativeDocumentMoniker": "Domain\\Services\\ItemService.cs",
+              "ToolTip": "C:\\Users\\sheil\\Desktop\\streetteamsj\\InventoryManagementSystemApp\\Domain\\Services\\ItemService.cs",
+              "RelativeToolTip": "Domain\\Services\\ItemService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-17T18:41:03.271Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Result.cs",
+              "DocumentMoniker": "C:\\Users\\sheil\\Desktop\\streetteamsj\\InventoryManagementSystemApp\\Domain\\DTOs\\Results\\Result.cs",
+              "RelativeDocumentMoniker": "Domain\\DTOs\\Results\\Result.cs",
+              "ToolTip": "C:\\Users\\sheil\\Desktop\\streetteamsj\\InventoryManagementSystemApp\\Domain\\DTOs\\Results\\Result.cs",
+              "RelativeToolTip": "Domain\\DTOs\\Results\\Result.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-17T18:40:34.332Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ItemReadModelGateway.cs",
+              "DocumentMoniker": "C:\\Users\\sheil\\Desktop\\streetteamsj\\InventoryManagementSystemApp\\Persistence\\Queries\\ItemReadModelGateway.cs",
+              "RelativeDocumentMoniker": "Persistence\\Queries\\ItemReadModelGateway.cs",
+              "ToolTip": "C:\\Users\\sheil\\Desktop\\streetteamsj\\InventoryManagementSystemApp\\Persistence\\Queries\\ItemReadModelGateway.cs",
+              "RelativeToolTip": "Persistence\\Queries\\ItemReadModelGateway.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-17T18:37:48.358Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ItemVm.cs",
+              "DocumentMoniker": "C:\\Users\\sheil\\Desktop\\streetteamsj\\InventoryManagementSystemApp\\UI\\ViewModels\\ItemVm.cs",
+              "RelativeDocumentMoniker": "UI\\ViewModels\\ItemVm.cs",
+              "ToolTip": "C:\\Users\\sheil\\Desktop\\streetteamsj\\InventoryManagementSystemApp\\UI\\ViewModels\\ItemVm.cs",
+              "RelativeToolTip": "UI\\ViewModels\\ItemVm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-17T18:36:37.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ItemRow.cs",
+              "DocumentMoniker": "C:\\Users\\sheil\\Desktop\\streetteamsj\\InventoryManagementSystemApp\\UI\\ReadModels\\Rows\\ItemRow.cs",
+              "RelativeDocumentMoniker": "UI\\ReadModels\\Rows\\ItemRow.cs",
+              "ToolTip": "C:\\Users\\sheil\\Desktop\\streetteamsj\\InventoryManagementSystemApp\\UI\\ReadModels\\Rows\\ItemRow.cs",
+              "RelativeToolTip": "UI\\ReadModels\\Rows\\ItemRow.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-17T18:35:55.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IItemReadModelGateway.cs",
+              "DocumentMoniker": "C:\\Users\\sheil\\Desktop\\streetteamsj\\InventoryManagementSystemApp\\UI\\Queries\\IItemReadModelGateway.cs",
+              "RelativeDocumentMoniker": "UI\\Queries\\IItemReadModelGateway.cs",
+              "ToolTip": "C:\\Users\\sheil\\Desktop\\streetteamsj\\InventoryManagementSystemApp\\UI\\Queries\\IItemReadModelGateway.cs",
+              "RelativeToolTip": "UI\\Queries\\IItemReadModelGateway.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-17T18:32:37.717Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "InventoryManagementSystemApp",
+              "DocumentMoniker": "C:\\Users\\sheil\\Desktop\\streetteamsj\\InventoryManagementSystemApp\\InventoryManagementSystemApp.csproj",
+              "RelativeDocumentMoniker": "InventoryManagementSystemApp.csproj",
+              "ToolTip": "C:\\Users\\sheil\\Desktop\\streetteamsj\\InventoryManagementSystemApp\\InventoryManagementSystemApp.csproj",
+              "RelativeToolTip": "InventoryManagementSystemApp.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-06-17T18:29:04.746Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\sheil\\Desktop\\streetteamsj\\InventoryManagementSystemApp\\UI\\Views\\Item\\Delete.cshtml",
+              "RelativeDocumentMoniker": "UI\\Views\\Item\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\sheil\\Desktop\\streetteamsj\\InventoryManagementSystemApp\\UI\\Views\\Item\\Delete.cshtml",
+              "RelativeToolTip": "UI\\Views\\Item\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-15T13:09:56.425Z",
+              "WhenOpened": "2026-06-15T14:53:39.944Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\sheil\\Desktop\\streetteamsj\\InventoryManagementSystemApp\\UI\\Views\\Item\\Edit.cshtml",
+              "RelativeDocumentMoniker": "UI\\Views\\Item\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\sheil\\Desktop\\streetteamsj\\InventoryManagementSystemApp\\UI\\Views\\Item\\Edit.cshtml",
+              "RelativeToolTip": "UI\\Views\\Item\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-15T14:53:29.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\sheil\\Desktop\\streetteamsj\\InventoryManagementSystemApp\\UI\\Views\\Item\\Create.cshtml",
+              "RelativeDocumentMoniker": "UI\\Views\\Item\\Create.cshtml",
+              "ToolTip": "C:\\Users\\sheil\\Desktop\\streetteamsj\\InventoryManagementSystemApp\\UI\\Views\\Item\\Create.cshtml",
+              "RelativeToolTip": "UI\\Views\\Item\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-15T14:53:15.211Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ItemController.cs",
+              "DocumentMoniker": "C:\\Users\\sheil\\Desktop\\streetteamsj\\InventoryManagementSystemApp\\UI\\Controllers\\ItemController.cs",
+              "RelativeDocumentMoniker": "UI\\Controllers\\ItemController.cs",
+              "ToolTip": "C:\\Users\\sheil\\Desktop\\streetteamsj\\InventoryManagementSystemApp\\UI\\Controllers\\ItemController.cs",
+              "RelativeToolTip": "UI\\Controllers\\ItemController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T14:24:40.721Z",
               "EditorCaption": ""
             }
           ]

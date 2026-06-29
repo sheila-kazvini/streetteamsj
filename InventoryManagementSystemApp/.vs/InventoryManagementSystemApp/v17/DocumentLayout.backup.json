@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\sheil\\Desktop\\streetteamsj\\InventoryManagementSystemApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C125123B-9484-49B9-BDD9-EF11B5C9A602}|InventoryManagementSystemApp.csproj|c:\\users\\sheil\\desktop\\streetteamsj\\inventorymanagementsystemapp\\ui\\views\\item\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C125123B-9484-49B9-BDD9-EF11B5C9A602}|InventoryManagementSystemApp.csproj|solutionrelative:ui\\views\\item\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C125123B-9484-49B9-BDD9-EF11B5C9A602}|InventoryManagementSystemApp.csproj|c:\\users\\sheil\\desktop\\streetteamsj\\inventorymanagementsystemapp\\ui\\views\\item\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C125123B-9484-49B9-BDD9-EF11B5C9A602}|InventoryManagementSystemApp.csproj|solutionrelative:ui\\views\\item\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -43,6 +47,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\sheil\\Desktop\\streetteamsj\\InventoryManagementSystemApp\\UI\\Views\\Item\\Delete.cshtml",
+              "RelativeDocumentMoniker": "UI\\Views\\Item\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\sheil\\Desktop\\streetteamsj\\InventoryManagementSystemApp\\UI\\Views\\Item\\Delete.cshtml",
+              "RelativeToolTip": "UI\\Views\\Item\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-15T14:53:39.944Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\sheil\\Desktop\\streetteamsj\\InventoryManagementSystemApp\\UI\\Views\\Item\\Edit.cshtml",
               "RelativeDocumentMoniker": "UI\\Views\\Item\\Edit.cshtml",
@@ -55,7 +72,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\sheil\\Desktop\\streetteamsj\\InventoryManagementSystemApp\\UI\\Views\\Item\\Create.cshtml",
               "RelativeDocumentMoniker": "UI\\Views\\Item\\Create.cshtml",
@@ -68,7 +85,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\sheil\\Desktop\\streetteamsj\\InventoryManagementSystemApp\\UI\\Views\\Item\\Index.cshtml",
               "RelativeDocumentMoniker": "UI\\Views\\Item\\Index.cshtml",
@@ -81,7 +98,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ItemController.cs",
               "DocumentMoniker": "C:\\Users\\sheil\\Desktop\\streetteamsj\\InventoryManagementSystemApp\\UI\\Controllers\\ItemController.cs",
               "RelativeDocumentMoniker": "UI\\Controllers\\ItemController.cs",
@@ -94,7 +111,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\sheil\\Desktop\\streetteamsj\\InventoryManagementSystemApp\\UI\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "UI\\Views\\Home\\Index.cshtml",
